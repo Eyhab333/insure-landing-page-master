@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | Insure landing page</title>
+
+    <style>
+      body {
+        font-family: "DM Serif Display", serif;
+        font-family: "Karla", sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="./images/logo.svg" alt="logo" />
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#">HOW WE WORK</a></li>
+          <li><a href="#">BLOG</a></li>
+          <li><a href="#">ACCOUNT</a></li>
+          <li><a class="view" href="#">VIEW PLANS</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <picture>
+          <source
+            media="(min-width: 600px)"
+            srcset="./images/image-intro-desktop.jpg"
+          />
+          <img src="./images/image-intro-mobile.jpg" alt="image-intro" />
+        </picture>
+        <div class="text">
+          <h1>Humanizing your insurance.</h1>
+          <p>
+            Get your life insurance coverage easier and faster. We blend our
+            expertise and technology to help you find the plan that’s right for
+            you. Ensure you and your loved ones are protected.
+          </p>
+          <a href="#">VIEW PLANS</a>
+        </div>
+      </section>
+      <section class="we-are-different">
+        <h2>We’re different</h2>
+        <div class="flex">
+          <div class="flex-item">
+            <div class="icon">
+              <img
+                src="./images/icon-snappy-process.svg"
+                alt="icon-snappy-process"
+              />
+            </div>
+            <h4>Snappy Process</h4>
+            <p>
+              Our application process can be completed in minutes, not hours.
+              Don’t get stuck filling in tedious forms.
+            </p>
+          </div>
+          <div class="flex-item">
+            <div class="icon">
+              <img
+                src="./images/icon-affordable-prices.svg"
+                alt="icon-affordable-prices"
+              />
+            </div>
+            <h4>Affordable Prices</h4>
+            <p>
+              We don’t want you worrying about high monthly costs. Our prices
+              may be low, but we still offer the best coverage possible.
+            </p>
+          </div>
+          <div class="flex-item">
+            <div class="icon">
+              <img
+                src="./images/icon-people-first.svg"
+                alt="icon-people-first"
+              />
+            </div>
+            <h4>People First</h4>
+            <p>
+              Our plans aren’t full of conditions and clauses to prevent
+              payouts. We make sure you’re covered when you need it.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="find">
+        <div class="text">
+          <h3>Find out more about how we work</h3>
+        </div>
+        <button>HOW WE WORK</button>
+      </section>
+    </main>
+    <footer>
+      <div class="logo-and-social-media">
+        <div class="logo">
+          <img src="./images/logo.svg" alt="logo" />
+        </div>
+        <ul>
+          <li>
+            <img src="./images/icon-facebook.svg" alt="icon-facebook" />
+          </li>
+          <li>
+            <img src="./images/icon-twitter.svg" alt="icon-twitter" />
+          </li>
+          <li>
+            <img src="./images/icon-pinterest.svg" alt="icon-pinterest" />
+          </li>
+          <li>
+            <img src="./images/icon-instagram.svg" alt="icon-instagram" />
+          </li>
+        </ul>
+      </div>
+      <hr />
+      <div class="container-p-and-links">
+        <div class="p-and-links">
+          <p>OUR COMPANY</p>
+          <ul>
+            <li><a href="#">HOW WE WORK</a></li>
+            <li><a href="#">WHY INSURE?</a></li>
+            <li><a href="#">VIEW PLANS</a></li>
+            <li><a href="#">REVIEWS</a></li>
+          </ul>
+        </div>
+        <div class="p-and-links">
+          <p>HELP ME</p>
+          <ul>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">TERMS OF USE</a></li>
+            <li><a href="#">PRIVACY POLICY</a></li>
+            <li><a href="#">COOKIES</a></li>
+          </ul>
+        </div>
+        <div class="p-and-links">
+          <p>CONTACT</p>
+          <ul>
+            <li><a href="#">SALES</a></li>
+            <li><a href="#">SUPPORT</a></li>
+            <li><a href="#">LIVE CHAT</a></li>
+          </ul>
+        </div>
+        <div class="p-and-links">
+          <p>OTHERS</p>
+          <ul>
+            <li><a href="#">CAREERS</a></li>
+            <li><a href="#">PRESS</a></li>
+            <li><a href="#">LICENSES</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
