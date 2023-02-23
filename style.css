@@ -307,10 +307,7 @@ ul {
     height: 37.0625rem;
   }
   header {
-    margin-top: 31px;
-    margin-left: 168px;
-    margin-right: 165px;
-    margin-bottom: 31px;
+    padding: 20px 165px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -331,7 +328,6 @@ ul {
     font-style: normal;
     font-weight: 700;
     font-size: 13px;
-    line-height: 15px;
     text-align: center;
     letter-spacing: 1.5px;
     color: #837d88;
@@ -412,8 +408,7 @@ ul {
     justify-content: center;
   }
   main .we-are-different {
-    margin-bottom: 158px;
-    padding: 19.0625rem 10.3125rem 9.875rem 10.3125rem;
+    padding: 23.0625rem 10.3125rem 9.875rem 10.3125rem;
   }
   main .we-are-different h2 {
     font-family: "DM Serif Display";
@@ -452,7 +447,7 @@ ul {
     height: 86px;
     margin-bottom: 32px;
   }
-  main .we-are-different .flex .flex-item h4 {
+  main .we-are-different .flex .flex-item h3 {
     font-family: "DM Serif Display";
     font-style: normal;
     font-weight: 400;
