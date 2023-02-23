@@ -356,7 +356,7 @@ ul {
     &::after {
       content: "";
       position: absolute;
-      top: 115px;
+      top: 98px;
       right: 0;
       background-image: url(./images/bg-pattern-intro-right-desktop.svg);
       background-repeat: no-repeat;
@@ -366,7 +366,7 @@ ul {
   }
 
   header {
-    padding: 20px 165px;
+    padding: 19px 165px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -398,7 +398,7 @@ ul {
 
         .view {
           border: 1.5px solid #2c2830;
-          padding: 13px 28px;
+          padding: 9px 28px;
           margin-left: 33px;
 
           a {
